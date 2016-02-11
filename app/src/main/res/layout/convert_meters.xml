@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/title_converter_meter"
+            android:id="@+id/textView"
+            android:textSize="20sp"
+            android:textColor="#6070eb"
+            android:layout_margin="10dp"
+            android:gravity="center" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_meter"
+            android:hint="@string/meter"
+            android:layout_margin="10dp"
+            android:inputType="numberDecimal"
+            android:maxLength="5"
+            android:minLines="3"
+            ></EditText>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp" />
+
+        <View
+            android:layout_height="2dp"
+            android:layout_width="match_parent"
+            android:background="@android:color/holo_red_dark"
+            android:layout_margin="10dp"
+            ></View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:id="@+id/text_data_meter"/>
+
+    </LinearLayout>
+</RelativeLayout>

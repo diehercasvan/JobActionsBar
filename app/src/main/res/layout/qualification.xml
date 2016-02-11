@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/qualification"
+            android:id="@+id/textView"
+            android:textSize="20sp"
+            android:textColor="#6070eb"
+            android:layout_margin="10dp"
+            android:gravity="center" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_note1"
+            android:hint="@string/note1"
+            android:layout_margin="10dp"
+            android:inputType="numberDecimal"
+            android:maxLength="3"
+            android:minLines="2"
+            ></EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_note2"
+            android:hint="@string/note2"
+            android:layout_margin="10dp"
+            android:inputType="numberDecimal"
+            android:maxLength="3"
+            android:minLines="2"
+            ></EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_note3"
+            android:hint="@string/note3"
+            android:layout_margin="10dp"
+            android:inputType="numberDecimal"
+            android:maxLength="3"
+            android:minLines="2"
+            ></EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_note4"
+            android:hint="@string/note4"
+            android:layout_margin="10dp"
+            android:inputType="numberDecimal"
+            android:maxLength="3"
+            android:minLines="2"
+            ></EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_note5"
+            android:hint="@string/note5"
+            android:layout_margin="10dp"
+            android:inputType="numberDecimal"
+            android:maxLength="3"
+            android:minLines="2"
+            ></EditText>
+
+
+        <View
+            android:layout_height="2dp"
+            android:layout_width="match_parent"
+            android:background="@android:color/holo_red_dark"
+            android:layout_margin="10dp"
+            ></View>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_calculate"
+            android:text="@string/btn_calculate"
+            android:layout_margin="30dp">
+
+
+        </Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:gravity="center"
+            android:id="@+id/text_data_note"/>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Job Actions Bar</string>
+    <string name="salary_base">Salary base:</string>
+    <string name="hourse_worked">Hourse worked:</string>
+    <string name="name_employed">Name employed:</string>
+    <string name="btn_calculate">Calculate</string>
+    <string name="title_salary">Calculate salary employed</string>
+    <string name="title_converter_meter">Convert meters</string>
+    <string name="meter">Meter</string>
+    <string-array name="units">
+        <item>Centimeters</item>
+        <item>Feet</item>
+        <item>Inches </item>
+        <item>Yard</item>
+    </string-array>
+    <string name="qualification">Student notes</string>
+    <string name="note1">Partial qualifications one</string>
+    <string name="note2">Partial qualifications two</string>
+    <string name="note3">Partial qualifications three</string>
+    <string name="note4">Final exam</string>
+    <string name="note5">Work final</string>
+    <string name="name1">Débora</string>
+    <string name="name2">Raquel</string>
+    <string name="name3">Séfora</string>
+    <string name="money">Money </string>
+    <string name="age">Age </string>
+    <string name="title_capital">Determining the capital as a percentage</string>
+    <string name="title_distribute">Distribute amounts</string>
+
+
+
+
+
+
+</resources>
